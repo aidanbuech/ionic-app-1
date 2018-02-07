@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavParams } from 'ionic-angular';
+import { NavParams, NavController } from 'ionic-angular';
 
 @Component({
     templateUrl: 'bio.html',
@@ -9,8 +9,11 @@ export class BioPage {
 
     public person;
 
-    constructor( public params: NavParams ){
+    constructor( public params: NavParams, public nav: NavController ){
         this.person = params.get("person");
     }
 
+    //goBack() {
+     //   this.nav.pop();
+}
 }
