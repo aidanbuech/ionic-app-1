@@ -13,7 +13,7 @@ export class BioPage {
         this.person = params.get("person");
     }
 
-    //goBack() {
-     //   this.nav.pop();
+    goBack() {
+        this.nav.pop(); //this is an example of how to create a back button
 }
 }
