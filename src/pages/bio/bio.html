@@ -2,10 +2,23 @@
     <ion-navbar>
         <ion-title class="name-title">{{person.name}}</ion-title>
     </ion-navbar>
+    <!--<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>-->
 </ion-header>
 
-<ion-content padding>
-    <ul>
-        <li class="grade">Grade: {{person.grade}}</li>
-    </ul>
+<ion-content class="body" padding>
+    <ion-card class="card">
+        <ion-card-content>
+            <h2 class="grade">Grade: {{person.grade}}</h2>
+        </ion-card-content>
+    </ion-card>
+    <ion-card class="card">
+            <ion-card-content>
+                <h2 class="grade">Age: {{person.age}}</h2>
+            </ion-card-content>
+        </ion-card>
+        <ion-card class="card">
+            <ion-card-content>
+                <h2 class="grade">School: {{person.school}}</h2>
+            </ion-card-content>
+        </ion-card>
 </ion-content>

@@ -11,23 +11,32 @@ export class HomePage {
   public members = [
     {
       name: "Aidan Buechler",
-      grade: "Junior"
+      grade: "Junior",
+      age: "16",
+      school: "Creighton Prep",
     },
     {
       name: "Daniel Noon",
-      grade: "Junior"
+      grade: "Junior",
+      age: "16",
+      school: "Creighton Prep",
     },
     {
       name: "Xavier Vaughn",
-      grade: "Junior"
+      grade: "Junior",
+      age: "17?",
+      school: "Creighton Prep",
     },
     {
       name: "Parker Wall",
-      grade: "Sophomore"
+      grade: "Sophomore",
+      age: "15?",
     },
     {
       name: "Ben Wingerter",
-      grade: "Senior"
+      grade: "Senior",
+      age: "18?",
+      school: "Creighton Prep",
     }
   ];
 

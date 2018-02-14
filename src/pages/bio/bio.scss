@@ -1,0 +1,27 @@
+.card {
+    width: 100%;
+    height: 30%;
+    margin: 55px 50px 30px 0px;
+}
+
+ion-card-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: flex-start;
+    height: 100%;
+}
+//this centers vertically the text
+.grade {
+    font-size: 1.75rem;
+    text-align: center;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.body {
+    background: color($colors, primary)
+}
